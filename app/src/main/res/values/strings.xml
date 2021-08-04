@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ber-Kebun</string>
+    <string name="ber_kebun">Kebun Obat</string>
+    <string name="my_image_description">Ini deskripsi gambar</string>
+    <string name="nama_tanaman">nama tumbuhan</string>
+    <string name="deskripisi_tanaman">Deskripsi</string>
+    <string name="isi_deskripsi">isi deskripsi tumbuhannya</string>
+    <string name="email_saya">asthiseta@gmail.com</string>
+    <string name="nama_saya">Muhammad Asthi Seta Ari Yuwana</string>
+    <string name="profil">profil</string>
+</resources>

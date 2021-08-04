@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".detail.TanamanDetail"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<!--nama tanaman-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/set_nama"
+            android:text="Nama Tanaman"
+            android:textColor="#011001"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!--Foto-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginRight="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/deskripisi_tanaman"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+<!--Deskripsi Tanaman-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="18dp"/>
+
+        <TextView
+            android:id="@+id/set_deskripsiTanaman"
+            android:text="@string/isi_deskripsi"
+            android:justificationMode="inter_word"
+            android:textColor="#070606"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
